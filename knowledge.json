@@ -1,0 +1,17 @@
+{
+    "articles":[
+        {
+            "id":1,
+            "title":"Windows: Should I upgrade to Windows 8.x?",
+            "description":"Should I upgrade to <B>Windows</B> 8.x? <B>Windows</B> 8.x is designed for using touch, mouse, and keyboard the <B>Windows</B> Store and access apps such as Calendar, Mail, and Messaging. By most accounts, <B>Windows</B> boot times, smaller memory footprint, and more free memory for the programs you run. <B>Windows</B>"
+        },
+        {
+          
+              "id":2,
+              "title":"How to fix server down issues",
+              "description":"Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+        } 
+        
+    ]
+  
+  }
