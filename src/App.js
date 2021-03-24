@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter, Switch, Route
+import {
+  BrowserRouter, Switch, Route
 } from 'react-router-dom'
 import HomePage from './pages/home';
 import KnowledgePage from './pages/knowledge';
@@ -10,12 +11,12 @@ function App() {
   return (
     <div>
       <BrowserRouter >
-      <Navbar/>
-      <Switch>
-<Route path='/' exact component={HomePage}></Route>
-<Route path='/knowledge'  component={KnowledgePage}></Route>
-<Route path='/ticket'  component={TicketPage}></Route>
-      </Switch>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={HomePage}></Route>
+          <Route path='/knowledge/:id' component={KnowledgePage}></Route>
+          <Route path='/ticket' component={TicketPage}></Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
