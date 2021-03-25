@@ -44,7 +44,11 @@ const Search = () => {
             <div style={{
                 width: '50%',
                 margin: 'auto'
-            }}><Select noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
+            }} className="text-center">
+                <label htmlFor="search">
+                    <h1>Find answers faster</h1>
+                </label>
+                <Select id="search" noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
 
         </div>
     </div>
