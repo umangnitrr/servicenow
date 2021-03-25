@@ -10,10 +10,8 @@ import TicketPage from './pages/ticket';
 function App() {
   return (
     <div >
-
-      <Nav />
       <BrowserRouter >
-
+      <Nav />
         <div className="container-fluid">
           <Switch>
             <Route path='/' exact component={HomePage}></Route>

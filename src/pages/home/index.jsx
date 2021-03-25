@@ -8,15 +8,15 @@ const HomePage = () => {
   return <div>
     
     <div class="row">
-      <div class="col-sm-12 p-5">
+      <div class="col-sm-12 p-0">
         <Search></Search>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6 col-sm-12 p-5">
+      <div class="col-md-6 col-sm-12 p-2">
         <FAQ />
       </div>
-      <div class="col-md-6 col-sm-12 p-5">
+      <div class="col-md-6 col-sm-12 p-2">
         <ContactUs />
       </div>
     </div>
