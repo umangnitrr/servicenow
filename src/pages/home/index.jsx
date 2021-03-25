@@ -3,8 +3,10 @@ import ContactUs from '../../components/ContactUs';
 import FAQ from '../../components/FAQ';
 import Search from '../../components/Search';
 
+
 const HomePage = () => {
   return <div>
+    
     <div class="row">
       <div class="col-sm-12 p-5">
         <Search></Search>

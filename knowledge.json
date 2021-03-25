@@ -1,17 +1,54 @@
 {
-    "articles":[
+    "articles": [
         {
-            "id":1,
-            "title":"Windows: Should I upgrade to Windows 8.x?",
-            "description":"Should I upgrade to <B>Windows</B> 8.x? <B>Windows</B> 8.x is designed for using touch, mouse, and keyboard the <B>Windows</B> Store and access apps such as Calendar, Mail, and Messaging. By most accounts, <B>Windows</B> boot times, smaller memory footprint, and more free memory for the programs you run. <B>Windows</B>"
+            "id": 1,
+            "title": "Windows: Should I upgrade to Windows 8.x?",
+            "description": "Should I upgrade to Windows 8.x? Windows 8.x is designed for using touch, mouse, and keyboard the Windows Store and access apps such as Calendar, Mail, and Messaging. By most accounts, Windows boot times, smaller memory footprint, and more free memory for the programs you run. Windows"
         },
         {
-          
-              "id":2,
-              "title":"How to fix server down issues",
-              "description":"Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
-        } 
-        
+            "id": 2,
+            "title": "How to fix server down issues",
+            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+        },
+        {
+            "id": 3,
+            "title": "Can I download the lecture videos?",
+            "description": "In order to get your course mark completed (100%) and retrieve your course completion certificate, you need to ensure that every section of the course has a check-mark next to it. See below:"
+        },
+        {
+            "id": 4,
+            "title": "Can I download and edit the financial modeling templates?",
+            "description": "Yes, of course! You can edit and update CFI™’s financial modeling templates to fit your professional & personal needs."
+        },
+        {
+            "id": 5,
+            "title": "How to turn on the CC Caption",
+            "description": "All our courses and communication are conducted in English. However, CFI is a global institution with over 600,000 students (including non-native English speakers) worldwide taking our training to advance their careers."
+        },
+        {
+            "id": 6,
+            "title": "How to Take A Final Exam",
+            "description": "Please note that exams can be repeated as many times as you need. However, students who do not pass the exam at the first attempt will need to pay a $50 retake fee and will have to wait for 30 days until they can attempt the final exam again. Each additional exam attempt follows the same process."
+        },
+        {
+            "id": 7,
+            "title": "Can my employer pay for my Program enrollment?",
+            "description": "Your employer may cover your enrollment fees, as per your agreed arrangement.We can issue an invoice billed to your employer, or alternatively, we can issue a receipt that you can present your employer for reimbursement. Click on 'Contact Us' to request"
+        },
+        {
+            "id": 8,
+            "title": "How to fix server down issues",
+            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+        },
+        {
+            "id": 9,
+            "title": "How to fix server down issues",
+            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+        },
+        {
+            "id": 10,
+            "title": "How to fix server down issues",
+            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+        }
     ]
-  
-  }
+}

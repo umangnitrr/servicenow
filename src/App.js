@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Nav from './components/Nav';
 import {
   BrowserRouter, Switch, Route
 } from 'react-router-dom'
@@ -9,9 +9,11 @@ import KnowledgePage from './pages/knowledge';
 import TicketPage from './pages/ticket';
 function App() {
   return (
-    <div>
+    <div >
+      
+       <Nav />
       <BrowserRouter >
-        <Navbar />
+       
         <Switch>
           <Route path='/' exact component={HomePage}></Route>
           <Route path='/knowledge/:id' component={KnowledgePage}></Route>

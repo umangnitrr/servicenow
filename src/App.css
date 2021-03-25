@@ -94,3 +94,9 @@
   text-decoration: none;
   color:#fff;
 }
+
+.btn-outline{
+  
+  color:#C7A95C !important;
+  border-color: #C7A95C !important;
+}
