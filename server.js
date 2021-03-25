@@ -11,43 +11,40 @@ app.use(bodyParser.json());
 
 app.get('/api/faqs/', (req, res) => {
   const contents = fs.readFileSync("./knowledge.json");
-  const knowledgeArticles=JSON.parse(contents);
-  
-    
-  res.send(knowledgeArticles.articles.slice(0,5));
-  
-    
+  const knowledgeArticles = JSON.parse(contents);
+
+
+  res.send(knowledgeArticles.articles.slice(0, 5));
+
+
 })
 
-app.get('/api/knowledgeBase/', (req, res) => {
+app.get('/api/knowledge/', (req, res) => {
   const contents = fs.readFileSync("./knowledge.json");
-  const knowledgeArticles=JSON.parse(contents);
+  const knowledgeArticles = JSON.parse(contents);
   const query = req.query.search;
-    if(query)
-  res.send(knowledgeArticles.articles.filter(knowledge => knowledge.title.toLowerCase().includes(query.toLowerCase())));
+  if (query)
+    res.send(knowledgeArticles.articles.filter(knowledge => knowledge.title.toLowerCase().includes(query.toLowerCase())));
   else
-  res.send(knowledgeArticles.articles)
-    
+    res.send(knowledgeArticles.articles)
+
 })
-app.get('/api/knowledgeBase/:id', (req, res) => {
+app.get('/api/knowledge/:id', (req, res) => {
   const contents = fs.readFileSync("./knowledge.json");
-  const knowledgeArticles=JSON.parse(contents);
-  res.send(knowledgeArticles.articles.find(art=>art.id == req.params.id))
+  const knowledgeArticles = JSON.parse(contents);
+  res.send(knowledgeArticles.articles.find(art => art.id == req.params.id))
 })
 
-app.post('/api/tickets/', (req, res) => {
-  var body = JSON.parse(req.body)
-    var filePath =  './ticket.json';
-    req.on('data', function(data) {
-        console.log(data);
+app.post('/api/ticket/', (req, res) => {
+  var body = req.body;
+  var filePath = './ticket.json';
 
-    });
+  const tickets = JSON.parse(fs.readFileSync(filePath));
+  const ticket = { ...body, createdOn: new Date(), id: new Date().getTime() };
+  fs.writeFileSync(filePath, JSON.stringify([...tickets, ticket], undefined, 2))
 
-    req.on('end', function (){
-        fs.appendFile(filePath, body, function() {
-          res.end();
-        });
-    });
+  res.send(ticket)
+
 })
 
 

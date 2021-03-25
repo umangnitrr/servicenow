@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import Select from 'react-select';
-import { server } from '../../enums';
+import { knowledgeServer as server } from '../../enums';
 
 
 
@@ -18,7 +18,6 @@ const Search = () => {
     const history = useHistory();
 
     useEffect(() => {
-        console.log(text)
         if (text.length >= 3) {
             search(text).then(result => {
                 setOptions(result.map(item => ({ value: item.id, label: item.title })));

@@ -13,10 +13,10 @@ const HomePage = () => {
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6 p-5">
+      <div class="col-md-6 col-sm-12 p-5">
         <FAQ />
       </div>
-      <div class="col-sm-6 p-5">
+      <div class="col-md-6 col-sm-12 p-5">
         <ContactUs />
       </div>
     </div>

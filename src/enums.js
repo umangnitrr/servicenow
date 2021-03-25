@@ -1,4 +1,6 @@
 
-export const server = 'http://localhost:8000/api/knowledgeBase';
+const host = 'http://localhost:8000/api'
 
-export const faqserver='http://localhost:8000/api/faqs'
+export const knowledgeServer = `${host}/knowledge`;
+export const ticketServer = `${host}/ticket`;
+export const faqServer = `${host}/faqs`;
