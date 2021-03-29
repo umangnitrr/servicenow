@@ -18,12 +18,12 @@ const Nav = () => {
 
             <nav class="my-2 my-md-0 mr-md-3">
 
-                <a class="p-2 text-white" href="#">Assets</a>
-                <a class="p-2 text-white" href="#">Products</a>
-                <a class="p-2 text-white" href="#">Support</a>
-                <a class="p-2 text-white" href="#">Pricing</a>
+                <a class="p-4 text-white" href="#">Assets</a>
+                <a class="p-4 text-white" href="#">Products</a>
+                <a class="p-4 text-white" href="#">Support</a>
+                <a class="p-4 text-white" href="#">Pricing</a>
             </nav>
-            <a class="btn  btn-outline" href="#">Sign up</a>
+           
         </div>
 
 
