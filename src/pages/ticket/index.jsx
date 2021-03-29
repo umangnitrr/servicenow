@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import { useFormik } from 'formik';
 import { ticketServer } from '../../enums';
 import $ from 'jquery';
-import { } from 'bootstrap';
 import './Ticket.css';
 
 (function () {
-    'use strict';
+    
     console.log('hello')
     window.addEventListener('click', function () {
         // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -56,7 +55,7 @@ const TicketPage = () => {
 
         <div class="d-flex flex-column supremo-bgwhite mt-5" style={{
             "width": "60%",
-            "align-self": "center",
+            "alignSelf": "center",
             "margin": "auto"
         }}> <div class="d-flex flex-row justify-content-center mt-5">
                 <div ><h3>Create Ticket Portal</h3></div>

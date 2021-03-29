@@ -28,12 +28,12 @@ const KnowledgePage = () => {
     return <div>
         {article.id === null ? <div>loading</div> : <div class="d-flex flex-column supremo-bgwhite mt-5" style={{
             "width": "60%",
-            "align-self": "center",
+            "alignSelf": "center",
             "margin": "auto"
         }}>
             <div class="d-flex flex-row justify-content-center">
                 <div class="p-2 mt-5 "><h1>{article.title}</h1></div>
-                
+
 
             </div>
             <div class="d-flex flex-row justify-content-start ml-5">
@@ -61,27 +61,22 @@ const KnowledgePage = () => {
 
 
             </div>
-            <div class="d-flex flex-row justify-content-start ml-5 ">
-                <div class="p-2 ">{article.description}</div>
 
 
-            </div>
+            {Object.keys(article).map(function (key) {
+                return key.indexOf("description") > -1 ? <div class="d-flex flex-row justify-content-start ml-5"><div class="p-2 ">{article[key]}</div></div> : <div></div>
+            })}
+
             <div class="d-flex flex-row justify-content-center  mt-5 mb-4">
-               
+
                 <div class="p-2 "> <Link to="/"><button className="btn btn-primary supremo-btn">Done</button></Link></div>
 
             </div>
-            
-               { Object.keys(article).map(function (key) {
-                   return key.indexOf("description") >0 ? <div>{article[key]}</div>: <div></div>
-                     
-
-                        
-                    
-                })}
 
 
-            
+
+
+
 
 
 
@@ -93,7 +88,7 @@ const KnowledgePage = () => {
         }
 
 
-    </div>
+    </div >
 }
 
 export default KnowledgePage;
