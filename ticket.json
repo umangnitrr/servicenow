@@ -1,42 +1,22 @@
 [
   {
-    "name": "Sumedh Chakravorty",
-    "phone": "07349369269",
-    "email": "sumedhchakravorty@yahoo.com",
-    "question": "hello",
+    "name": "Umang",
+    "phone": "9985350303",
+    "email": "u@c.com",
+    "question": "Hi",
     "mobileChannel": true,
     "emailChannel": false,
-    "createdOn": "2021-03-25T13:12:05.959Z",
-    "id": 1616677925959
+    "createdOn": "2021-03-28T17:11:30.222Z",
+    "id": 1616951490222
   },
   {
-    "name": "Sumedh Chakravorty",
-    "phone": "07349369269",
-    "email": "sumedhchakravorty@yahoo.com",
-    "question": "hello",
+    "name": "Umang",
+    "phone": "9985350303",
+    "email": "u@a.com",
+    "question": "How are you?",
     "mobileChannel": true,
-    "emailChannel": false,
-    "createdOn": "2021-03-25T13:12:15.741Z",
-    "id": 1616677935741
-  },
-  {
-    "name": "Sumedh Chakravorty",
-    "phone": "07349369269",
-    "email": "sumedhchakravorty@yahoo.com",
-    "question": "hello",
-    "mobileChannel": true,
-    "emailChannel": false,
-    "createdOn": "2021-03-25T13:12:40.422Z",
-    "id": 1616677960422
-  },
-  {
-    "name": "Sumedh Chakravorty",
-    "phone": "07349369269",
-    "email": "sumedhchakravorty@yahoo.com",
-    "question": "hello",
-    "mobileChannel": true,
-    "emailChannel": false,
-    "createdOn": "2021-03-25T13:13:22.191Z",
-    "id": 1616678002191
+    "emailChannel": true,
+    "createdOn": "2021-03-29T12:38:21.290Z",
+    "id": 1617021501290
   }
 ]

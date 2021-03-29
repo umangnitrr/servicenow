@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import Select from 'react-select';
 import { knowledgeServer as server } from '../../enums';
-
-
+import '../../components/Search/Search.css'
 
 
 const search = async text => {
@@ -39,15 +38,21 @@ const Search = () => {
     const handleSelection = txt => {
         setSelection(txt);
     }
-    return <div class="card" >
-        <div class="card-body m-5">
+    return <div class="card banner" >
+        <div class="card-body m-5" >
             <div style={{
                 width: '50%',
                 margin: 'auto'
             }} className="text-center">
-                <label htmlFor="search">
-                    <h1>Find answers faster</h1>
+                <label htmlFor="search" >
+                    <h1 class="search-label">Find Answers Faster</h1>
                 </label>
+            </div>
+            <div style={{
+                width: '50%',
+                margin: 'auto'
+            }} >
+                
                 <Select id="search" noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
 
         </div>

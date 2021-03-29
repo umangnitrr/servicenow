@@ -2,53 +2,67 @@
     "articles": [
         {
             "id": 1,
-            "title": "Windows: Should I upgrade to Windows 8.x?",
-            "description": "Should I upgrade to Windows 8.x? Windows 8.x is designed for using touch, mouse, and keyboard the Windows Store and access apps such as Calendar, Mail, and Messaging. By most accounts, Windows boot times, smaller memory footprint, and more free memory for the programs you run. Windows"
-        },
+            "title": "Commercial Loan rates",
+            "problem":"What are the rates on Commercial loans?",
+            "description": "Commercial loan rates vary based upon the strength of the loan request.  When pricing a commercial loan rate we consider such variables as cash flow of the operating entity, financial strength of the guarantors (owners) and their credit score along with the collateral available to support the request.  With those factors in mind, we then price our loans competitively."},
         {
             "id": 2,
-            "title": "How to fix server down issues",
-            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+            "title": "SBA - Paycheck Protection Program",
+            "problem":"Can I get help through the Paycheck Protection Program?",
+            "description": "Eligibility for small business loans under PPP - Small business concerns and/or a business is eligible for a PPP loan if the business has 500 or fewer employees whose principal place of residence is in the United States, or the business meets the SBA employee-based size standards for that industry",
+            "description2":"Eligibility for small business loans under PPP - Small business concerns and/or a business is eligible for a PPP loan if the business has 500 or fewer employees whose principal place of residence is in the United States, or the business meets the SBA employee-based size standards for that industry",
+            "description3":"Are gig workers classified as sub-contractors eligible? The program is for small employers, self-employed individuals, and “gig economy” workers, with $350 billion to help prevent workers from losing their jobs and small businesses from going under due to economic losses caused by the COVID-19 pandemic. The PPP provides 8 weeks of cash-flow assistance"
         },
         {
             "id": 3,
-            "title": "Can I download the lecture videos?",
-            "description": "In order to get your course mark completed (100%) and retrieve your course completion certificate, you need to ensure that every section of the course has a check-mark next to it. See below:"
+            "title": "Mortgage Refinance",
+            "problem":"What are my mortagge refinance options?",
+            "description": "There are a few different situations where refinancing could make sense for you, so let’s go over a few of the main reasons to refinance your home loan in this year.",
+            "description2":"Refinancing your home loan means changing your existing loan for a new one and in most cases, with a new bank. The two main reasons people look to refinance their home loans are either to get a better rate or to increase their existing loan to withdraw some home equity.",
+            "description3":"You can refinance your home loan from any bank or lender you choose, and it doesn’t necessarily need to be your existing lender. These days, banks do not reward loyalty, and in most cases we find lenders offer better deals to new customers rather than rewarding their existing ones.",
+            "description4":"Aside from this, what are some reasons for refinancing? It is going to come down to your personal situation, and your own short to medium term goals.Aside from this, what are some reasons for refinancing? It is going to come down to your personal situation, and your own short to medium term goals."
         },
         {
             "id": 4,
-            "title": "Can I download and edit the financial modeling templates?",
-            "description": "Yes, of course! You can edit and update CFI™’s financial modeling templates to fit your professional & personal needs."
+            "title": "Get a Personal Identification Number (PIN)",
+            "problem":"How do I get a Personal Identification Number (PIN)?",
+            "description": "We automatically assign a Personal Identification Number (PIN) to your account when you're approved for a credit card. You'll receive your PIN by mail after we've sent your new credit card. To request a PIN, please call the number on the back of your card."
         },
         {
             "id": 5,
-            "title": "How to turn on the CC Caption",
-            "description": "All our courses and communication are conducted in English. However, CFI is a global institution with over 600,000 students (including non-native English speakers) worldwide taking our training to advance their careers."
+            "title": "Capital Gain",
+            "problem":"What is a capital gain?",
+            "description": "Capital gain is an increase in the value of a  capital asset (investment or real estate) that gives it a higher worth than the purchase price. The gain is not realized until the asset is sold. A capital gain may be  short term (one year or less) or  long term (more than one year) and must be claimed on  income taxes. A  capital loss is incurred when there is a decrease in the capital asset value compared to an asset's purchase price.Profit that results when the price of a security held by a mutual fund rises above its purchase price and the security is sold (realized gain). If the security continues to be held, the gain is unrealized. A capital loss would occur when the opposite takes place."
         },
         {
             "id": 6,
-            "title": "How to Take A Final Exam",
-            "description": "Please note that exams can be repeated as many times as you need. However, students who do not pass the exam at the first attempt will need to pay a $50 retake fee and will have to wait for 30 days until they can attempt the final exam again. Each additional exam attempt follows the same process."
+            "title": "Mutual Fund",
+            "problem":"What is a mutual fund?",
+            "description": "A mutual fund is an investment vehicle that is made up of a pool of funds collected from many investors for the purpose of investing in securities such as stocks, bonds, money market instruments and similar assets. Mutual funds are operated by money managers, who invest the fund's capital and attempt to produce capital gains and income for the fund's investors. A mutual fund's portfolio is structured and maintained to match the investment objectives stated in its prospectus."
         },
         {
             "id": 7,
-            "title": "Can my employer pay for my Program enrollment?",
-            "description": "Your employer may cover your enrollment fees, as per your agreed arrangement.We can issue an invoice billed to your employer, or alternatively, we can issue a receipt that you can present your employer for reimbursement. Click on 'Contact Us' to request"
+            "title": "Brokerage Account",
+            "problem":"What is a brokerage account?",
+            "description": "A brokerage account is an arrangement between an investor and a licensed brokerage firm that allows the investor to deposit funds with the firm and place investment orders through the brokerage, which then carries out the transactions on the investor's behalf. The investor owns the assets contained in the brokerage account and must usually claim as income any capital gains he or she incurs from the account."
         },
         {
             "id": 8,
-            "title": "How to fix server down issues",
-            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+            "title": "Retirement Plan - IRA",
+            "problem":"What is an IRA?",
+            "description": "An individual retirement account (IRA) that allows individuals to direct pretax income, up to specific annual limits, toward investments that can grow tax-deferred (no capital gains or dividend income is taxed). Individual taxpayers are allowed to contribute 100% of compensation up to a specified maximum dollar amount to their Traditional IRA. Contributions to the Traditional IRA may be tax-deductible depending on the taxpayer's income, tax-filing status and other factors."
         },
         {
             "id": 9,
-            "title": "How to fix server down issues",
-            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+            "title": "SEC Rules for Mutual Fund Advertising",
+            "problem":"SEC rules that govern Mutual Fund advertising",
+            "description": "SEC Advertising Rules Section 5 of the 1933 Act prohibits offers of securities unless offered by a Section 10 prospectus. The term “offer” is broadly defined under federal securities laws to include any written communications designed to engender investor interest in a security. Section 2(a)(10) of the 1933 Act defines prospectus to include any “circular, advertisement, letter or communication . . . which offers any security for sale.” Section 5 of the 1933 Act prohibits a person from distributing a prospectus for any security unless it complies with strict disclosure requirements imposed by Section 10 of the 1933 Act. Section 10(a) dictates the content of the statutory prospectus and Section 10(b) permits a “summary prospectus” and an “omitting prospectus.” With a few exceptions, mutual fund marketing materials generally fall within the definition of a prospectus and thereby are subject to these disclosure requirements. However, SEC regulations offer several means of creating marketing materials which can be used directly."
         },
         {
             "id": 10,
-            "title": "How to fix server down issues",
-            "description": "Analyze Your Network Infrastructure. You will have a better chance at troubleshooting network problems if you first figure out where everything is connected in the infrastructure"
+            "title": "How long is the loan process",
+            "problem":"How long does the loan process typically take?",
+            "description": "The loan process typically takes between 45 – 60 days.  If the package is complete at loan application then the process can be much quicker."
         }
     ]
 }

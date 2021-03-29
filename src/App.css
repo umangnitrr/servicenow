@@ -100,3 +100,27 @@
   color:#C7A95C !important;
   border-color: #C7A95C !important;
 }
+.supremo-btn{
+  background-color: #C7A95C !important;
+  border:none;
+}
+
+.banner{
+
+  
+    background-image: url('./assets/customer5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.heading-txt-color{
+
+  color:#233749 !important
+}
+
+.supremo-bgwhite{
+  background-color: #fff;
+}
+
+
