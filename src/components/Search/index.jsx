@@ -53,7 +53,7 @@ const Search = () => {
                 margin: 'auto'
             }} >
                 
-                <Select id="search" noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
+                <Select placeholder="Search Knowledge Base.." id="search"  noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
 
         </div>
     </div>
