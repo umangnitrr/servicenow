@@ -38,14 +38,14 @@ const Search = () => {
     const handleSelection = txt => {
         setSelection(txt);
     }
-    return <div class="card banner" >
-        <div class="card-body m-5" >
+    return <div className="card banner" >
+        <div className="card-body m-5" >
             <div style={{
                 width: '50%',
                 margin: 'auto'
             }} className="text-center">
                 <label htmlFor="search" >
-                    <h1 class="search-label">Find Answers Faster</h1>
+                    <h1 className="search-label">Find Answers Faster</h1>
                 </label>
             </div>
             <div style={{
@@ -53,7 +53,7 @@ const Search = () => {
                 margin: 'auto'
             }} >
                 
-                <Select placeholder="Search Knowledge Base.." id="search"  noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
+                <Select placeholder="Search Knowledge Base" id="search"  noOptionsMessage={() => 'Type 3 characters to search...'} options={options} onInputChange={handleInputChange} onChange={handleSelection} inputValue={text} value={selection} autoFocus aria-label='Search Knowledge base' /></div>
 
         </div>
     </div>
